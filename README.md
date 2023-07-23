@@ -23,6 +23,17 @@
 - Apple Mail on macOS Ventura 13 or newer
 
 
+## Usage
+
+<img align="right" src="Assets/mail_settings.png" width="386px">
+
+1. Open the Mail app
+2. Goto Mail > Settings > Extensions
+3. Check `MailTrackerBlocker` to enable it. If you have multiple message security extensions installed, set "Message security extension" to `MailTrackerBlocker` to ensure trackers are blocked.
+
+Tap the puzzle icon to view the blocked tracker. Open the app to view a summary report of all blocked trackers.
+
+
 ## Contact
 
 Feel free to send me a message @apparition47 on [Twitter](https://www.twitter.com/apparition47) or [GitHub](https://www.github.com/apparition47).
