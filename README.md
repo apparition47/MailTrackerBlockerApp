@@ -20,18 +20,25 @@
 
 ## Requirements
 
-- Apple Mail on macOS Ventura 13 or newer
+- macOS Ventura 13 or newer
+- Apple Mail
 
 
 ## Usage
 
 <img align="right" src="Assets/mail_settings.png" width="386px">
 
+### How to enable the blocker
+
 1. Open the Mail app
 2. Goto Mail > Settings > Extensions
 3. Check `MailTrackerBlocker` to enable it. If you have multiple message security extensions installed, set "Message security extension" to `MailTrackerBlocker` to ensure trackers are blocked.
 
-Tap the puzzle icon to view the blocked tracker. Open the app to view a summary report of all blocked trackers.
+### How to view tracking details
+
+Select an email then tap the 🧩 puzzle icon that appears over the message pane header. Note: Mail hides the puzzle icon if the selected email has an attachment.
+
+To view a summary report of all blocked trackers, open the main app.
 
 
 ## Contact
