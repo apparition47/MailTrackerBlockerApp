@@ -34,7 +34,7 @@
 2. Goto Mail > Settings > Extensions.
 3. Check `MailTrackerBlocker` to enable it. If you have multiple message security extensions installed, set "Message security extension" to `MailTrackerBlocker` to ensure trackers are blocked.
 
-Enabling Mail > Privacy > "Block All Remote Content" in conjunction with MailTrackerBlocker enabled is redundant; disable this option for the best experience.
+Note: Enabling Mail > Privacy > "Block All Remote Content" with MailTrackerBlocker enabled is redundant; disable "Block All Remote Content" for the best experience.
 
 ### Tracking Report
 
@@ -45,7 +45,7 @@ Open the MailTrackerBlocker app or tap the 🧩 puzzle icon in Mail that appears
 
 ### Does this work with Mail Privacy Protection?
 
-Yes, in some network environments (e.g. VPN) where Mail Privacy Protection doesn't work, MailTrackerBlocker will still block and identify trackers if you choose to "Load Remote Content".
+Yes, even in network environments (e.g. VPN) where Mail Privacy Protection doesn't work, MailTrackerBlocker will still block and identify trackers if you choose to "Load Remote Content".
 
 ### Why is my Mail so slow?
 
