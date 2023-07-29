@@ -30,15 +30,26 @@
 
 ### How to enable the blocker
 
-1. Open the Mail app
-2. Goto Mail > Settings > Extensions
+1. Open the Mail app.
+2. Goto Mail > Settings > Extensions.
 3. Check `MailTrackerBlocker` to enable it. If you have multiple message security extensions installed, set "Message security extension" to `MailTrackerBlocker` to ensure trackers are blocked.
 
-### How to view tracking details
+Enabling Mail > Privacy > "Block All Remote Content" in conjunction with MailTrackerBlocker enabled is redundant; disable this option for the best experience.
 
-Select an email then tap the 🧩 puzzle icon that appears over the message pane header. Note: Mail hides the puzzle icon if the selected email has an attachment.
+### Tracking Report
 
-To view a summary report of all blocked trackers, open the main app.
+Open the MailTrackerBlocker app or tap the 🧩 puzzle icon in Mail that appears over the message pane header (note: the 🧩 puzzle icon is hidden if the selected e-mail has an attachment). The Tracking Report shows a rolling 30-day overview of e-mails grouped by tracker along with some frequency statistics.
+
+
+## FAQ
+
+### Does this work with Mail Privacy Protection?
+
+Yes, in some network environments (e.g. VPN) where Mail Privacy Protection doesn't work, MailTrackerBlocker will still block and identify trackers if you choose to "Load Remote Content".
+
+### Why is my Mail so slow?
+
+Such problems can be usually be resolved by doing a [complete Mailbox Rebuild](https://c-command.com/spamsieve/help/how-can-i-rebuild-apple) to force Mail to regenerate its indexes.
 
 
 ## Contact
