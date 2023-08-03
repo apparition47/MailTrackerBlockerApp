@@ -34,7 +34,7 @@
 
 Enabling Mail > Privacy > "Block All Remote Content" with MailTrackerBlocker enabled is redundant; disable "Block All Remote Content" for the best experience.
 
-### Advanced Tracker
+### (Optional) Advanced Tracker
 
 In your Mail > Settings > Extensions, you may check `MailTrackerBlocker` instead of `MailTrackerBlocker (Block-only)` for a more advanced blocker (can block unindentified spy pixels) with tracker labeling functionality (enabling the Tracker Report). If you have multiple message security extensions installed, set "Message security extension" to `MailTrackerBlocker` to ensure trackers are blocked.
 
