@@ -30,20 +30,23 @@
 
 1. Open the Mail app.
 2. Goto Mail > Settings > Extensions.
-3. Check `MailTrackerBlocker` to enable it. If you have multiple message security extensions installed, set "Message security extension" to `MailTrackerBlocker` to ensure trackers are blocked.
+3. Check `MailTrackerBlocker (Block-only)` to enable it.
 
 Enabling Mail > Privacy > "Block All Remote Content" with MailTrackerBlocker enabled is redundant; disable "Block All Remote Content" for the best experience.
 
-### Tracking Report
+### Advanced Tracker
 
-Open the MailTrackerBlocker app or tap the 🧩 puzzle icon in Mail that appears over the message pane header (note: the 🧩 puzzle icon is hidden if the selected e-mail has an attachment). The Tracking Report shows a rolling 30-day overview of e-mails grouped by tracker along with some frequency statistics.
+In your Mail > Settings > Extensions, you may check `MailTrackerBlocker` instead of `MailTrackerBlocker (Block-only)` for a more advanced blocker (can block unindentified spy pixels) with tracker labeling functionality (enabling the Tracker Report). If you have multiple message security extensions installed, set "Message security extension" to `MailTrackerBlocker` to ensure trackers are blocked.
 
-The Tracking Report does not work with the `MailTrackerBlocker (Block-only` extension.
+> [!WARNING]
+> If you experience **[Mail crashing](https://github.com/apparition47/MailTrackerBlockerApp/issues/1) or [slow attachment email loading](https://github.com/apparition47/MailTrackerBlockerApp/issues/2)**, please disable this `MailTrackerBlocker` extension and enable the `MailTrackerBlocker (Block-only)` extension instead. I've filed these two bugs with Apple (FB12794488, FB12796974) because these will need to be addressed by them (in the form of a macOS update, most likely). I recommend filing your own issues with Apple's [Feedback Assistant](https://feedbackassistant.apple.com) to bring more visibility to these bugs.
 
+#### Tracking Report
 
-## Crashes, slow attachment email loading issues
+Open the MailTrackerBlocker app or tap the 🧩 jigsaw puzzle icon in Mail that appears over the message pane header (note: the 🧩 jigsaw puzzle icon is hidden if the selected e-mail has an attachment). The Tracking Report shows a rolling 30-day overview of e-mails grouped by tracker along with some frequency statistics.
 
-⚠️ If you're experiencing **crashes or slow attachment email loading**, please enable the `MailTrackerBlocker (Block-only)` extension and disable the `MailTrackerBlocker` extension. I've filed these two issues with Apple (FB12794488, FB12796974) because these will need to be addressed by them (in the form of a macOS update, most likely). I recommend filing your own issues at https://feedbackassistant.apple.com to bring more visibility to these bugs.
+> [!IMPORTANT]  
+> The Tracking Report does not work with the `MailTrackerBlocker (Block-only)` extension.
 
 
 ## FAQ
