@@ -18,7 +18,7 @@
 
 ## Requirements
 
-- macOS Sonoma 14 or newer
+- macOS Sonoma 14.3 or newer
 - Apple Mail
 
 
