@@ -18,7 +18,7 @@
 
 ## Requirements
 
-- macOS Ventura 13 or newer
+- macOS Sonoma 14.3 or newer
 - Apple Mail
 
 
@@ -26,27 +26,18 @@
 
 <img align="right" src="Assets/mail_settings.png" width="386px">
 
+
 ### How to enable the tracker
 
 1. Open the Mail app.
 2. Goto Mail > Settings > Extensions.
-3. Check `MailTrackerBlocker (Block-only)` to enable it.
+3. Check `MailTrackerBlocker` to enable it. If you have multiple message security extensions installed, set "Message security extension" to `MailTrackerBlocker` to ensure trackers are blocked.
+4. [Recommended] Goto Mail > Settings > Privacy > disable "Block All Remote Content".
 
-Enabling Mail > Privacy > "Block All Remote Content" with MailTrackerBlocker enabled is redundant; disable "Block All Remote Content" for the best experience.
-
-### (Optional) Advanced Tracker
-
-In your Mail > Settings > Extensions, you may check `MailTrackerBlocker` instead of `MailTrackerBlocker (Block-only)` for a more advanced blocker (can block unindentified spy pixels) with tracker labeling functionality (enabling the Tracker Report). If you have multiple message security extensions installed, set "Message security extension" to `MailTrackerBlocker` to ensure trackers are blocked.
-
-> [!WARNING]
-> If you experience **[Mail crashing](https://github.com/apparition47/MailTrackerBlockerApp/issues/1) or [slow attachment email loading](https://github.com/apparition47/MailTrackerBlockerApp/issues/2)**, please disable this `MailTrackerBlocker` extension and enable the `MailTrackerBlocker (Block-only)` extension instead. I've filed these two bugs with Apple (FB12794488, FB12796974) because these will need to be addressed by them (in the form of a macOS update, most likely). I recommend filing your own issues with Apple's [Feedback Assistant](https://feedbackassistant.apple.com) to bring more visibility to these bugs. If you're having trouble starting Mail due to crashing on startup, deleting `~/Library/Mail/V10/MailData/AppExtensionUserPreferences.plist` will disable Mail extensions.
 
 #### Tracking Report
 
 Open the MailTrackerBlocker app or tap the 🧩 jigsaw puzzle icon in Mail that appears over the message pane header (note: the 🧩 jigsaw puzzle icon is hidden if the selected e-mail has an attachment). The Tracking Report shows a rolling 30-day overview of e-mails grouped by tracker along with some frequency statistics.
-
-> [!IMPORTANT]  
-> The Tracking Report does not work with the `MailTrackerBlocker (Block-only)` extension.
 
 
 ## FAQ
