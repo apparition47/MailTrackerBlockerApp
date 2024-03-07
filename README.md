@@ -16,7 +16,7 @@
 
 #### Free Demo
 
-Try out the latest beta for free: https://testflight.apple.com/join/cQLJpecQ
+Try out the latest beta for free. [Enroll on TestFlight here](https://testflight.apple.com/join/cQLJpecQ)!
 
 ## Features
 
