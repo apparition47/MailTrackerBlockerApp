@@ -10,6 +10,10 @@
 
 [![Mac App Store](Assets/download_mac_app_store.svg)](https://apps.apple.com/us/app/mailtrackerblocker/id6450760473)
 
+#### Free Demo
+
+Try out the latest beta for free: https://testflight.apple.com/join/cQLJpecQ
+
 ## Features
 
 - Mail extension.
