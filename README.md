@@ -4,7 +4,7 @@
     </a>
 </p>
 
-**MailTrackerBlocker** is a tracker blocker for Mail. Email marketers and other interests often embed invisible trackers in HTML emails so they can track how often, when and where you open your emails. Enable the included Mail extension to block spy pixels from your emails.
+**MailTrackerBlocker** is a tracker blocker for Mail. Email marketers and other interests often embed invisible trackers in HTML emails so they can track how often, when and where you open your emails. Enable the included Mail extension to find out who is tracking you and to block spy pixels from your emails.
 
 #### Available in the Mac App Store
 
@@ -17,7 +17,12 @@ Try out the latest beta for free: https://testflight.apple.com/join/cQLJpecQ
 ## Features
 
 - Mail extension.
+
 - Privacy protection: Blocks most spy pixels which may capture your IP address and function as read receipts and more.
+
+- Be informed: Identifies nearly 300 of the most common email marketing vendors.
+
+- Tracker report: See a 30-day overview of blocked trackers in your emails.
   
 
 ## Requirements
@@ -55,4 +60,4 @@ Note: [Mail Privacy Protection's proxy will still fetch the tracker image, trigg
 
 ## Contact
 
-Feel free to send me a message @apparition47 on [Twitter](https://www.twitter.com/apparition47) or [GitHub](https://www.github.com/apparition47).
+Feel free to send me a message @apparition47 on [X (Twitter)](https://www.twitter.com/apparition47) or [GitHub](https://www.github.com/apparition47).
