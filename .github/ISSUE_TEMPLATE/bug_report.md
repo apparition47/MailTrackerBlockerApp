@@ -21,11 +21,11 @@ Steps to reproduce the behavior:
 A clear and concise description of what you expected to happen.
 
 **Logs**
-If this is about a crash, when you see the crash dialog, hit `Report...` then copy and paste the text under `Problem Details and System Configuration`. 
+If applicable, please send me the affected email. You can do this by selecting the email, File > Save As... > Format: Raw Message Source. You can then send that `.eml` file to my email in my profile ([@apparition47](https://github.com/apparition47)).
 
 **Environment (please complete the following information):**
- - OS: [e.g. macOS 13.4.1]
- - Other enabled plugins/extensions:
+ - OS: [e.g. macOS 14.3.1]
+ - MailTrackerBlocker version: [e.g. 1.0.7]
 
 **Additional context**
 Add any other context about the problem here.
