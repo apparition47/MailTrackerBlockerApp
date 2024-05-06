@@ -6,9 +6,6 @@
 
 **MailTrackerBlocker** is a tracker blocker for Mail. Email marketers and other interests often embed invisible trackers in HTML emails so they can track how often, when and where you open your emails. Enable the included Mail extension to find out who is tracking you and to block spy pixels from your emails.
 
-> [!WARNING]  
-> Many users have reported that [[FB12796974] emails take a long time to load](https://github.com/apparition47/MailTrackerBlockerApp/issues/2). This is a bug on Mail's side. If you experience this specific bug, please report it to Apple via Feedback Assistant referencing ticket `FB12796974`.
-
 
 #### Available in the Mac App Store
 
@@ -31,7 +28,7 @@ Try out the latest beta for free. [Enroll on TestFlight here](https://testflight
 
 ## Requirements
 
-- macOS Sonoma 14.3 or newer
+- macOS Sonoma 14.5 or newer
 - Apple Mail
 
 
