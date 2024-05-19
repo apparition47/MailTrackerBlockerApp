@@ -4,9 +4,9 @@
     </a>
 </p>
 
-**MailTrackerBlocker** is a tracker blocker for Mail. Email marketers and other interests often embed invisible trackers in HTML emails so they can track how often, when and where you open your emails. Enable the included Mail extension to find out who is tracking you and to block spy pixels from your emails.
+**MailTrackerBlocker** is an email tracker blocker for macOS Mail. Email marketers and other interests often embed invisible trackers in HTML emails so [they can track how often, when and where you open your emails](https://notospypixels.com/). Enable the included Mail extension to find out who is tracking you and to block these spy pixels in your emails.
 
-> [!WARNING]  
+> [!WARNING]
 > Users have reported that [[FB12796974] emails take a long time to load](https://github.com/apparition47/MailTrackerBlockerApp/issues/2). Apple has acknowledged this Mail bug and will release a fix in a future update of macOS.
 
 
@@ -16,7 +16,8 @@
 
 #### Free Demo
 
-Try out the latest beta for free. [Enroll on TestFlight here](https://testflight.apple.com/join/cQLJpecQ)!
+Try out the beta for free by [enrolling on TestFlight](https://testflight.apple.com/join/cQLJpecQ)!
+
 
 ## Features
 
@@ -40,20 +41,25 @@ Try out the latest beta for free. [Enroll on TestFlight here](https://testflight
 <img align="right" src="Assets/mail_settings.png" width="386px">
 
 
-### How to enable the tracker
+### How to enable the Mail extension
 
 1. Open the Mail app.
-2. Goto Mail > Settings > Extensions.
-3. Check `MailTrackerBlocker` to enable it. If you have multiple message security extensions installed, set "Message security extension" to `MailTrackerBlocker` to ensure trackers are blocked.
-4. [Recommended] Goto Mail > Settings > Privacy > disable "Block All Remote Content".
+2. Go to Settings > Extensions.
+3. Check `MailTrackerBlocker` to enable it. If you have multiple message security extensions installed, set "Message security extension" to `MailTrackerBlocker` to ensure trackers are blocked. Note that only one message security extension can be active.
+4. [Recommended] Images are safe for viewing now so to re-enable them: Goto Mail > Settings > Privacy > disable "Block All Remote Content".
+5. You should now see a 🧩 jigsaw puzzle icon over the message pane header as you read your emails. The extension is now enabled!
 
 
 #### Tracking Report
 
-Open the MailTrackerBlocker app or tap the 🧩 jigsaw puzzle icon in Mail that appears over the message pane header (note: the 🧩 jigsaw puzzle icon is hidden if the selected e-mail has an attachment). The Tracking Report shows a rolling 30-day overview of e-mails grouped by tracker along with some frequency statistics.
+Open the MailTrackerBlocker app or tap the 🧩 jigsaw puzzle icon in Mail that appears over the message pane header. The Tracking Report shows a rolling 30-day overview of e-mails grouped by tracker along with some frequency statistics.
 
 
 ## FAQ
+
+### Sometimes extension not running/puzzle icon missing even when enabled
+
+See [`FB13801609`](https://github.com/apparition47/MailTrackerBlockerApp/issues/9) for workarounds.
 
 ### Does this work with Mail Privacy Protection?
 
@@ -64,4 +70,4 @@ Note: [Mail Privacy Protection's proxy will still fetch the tracker image, trigg
 
 ## Contact
 
-Feel free to send me a message on [X (Twitter)](https://x.com/apparition47) or [GitHub](https://www.github.com/apparition47).
+MailTrackerBlocker is developed by [Aaron Lee](https://x.com/apparition47) and published under One Fat Giraffe.
