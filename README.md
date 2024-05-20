@@ -34,7 +34,7 @@ Try out the beta for free by [enrolling on TestFlight](https://testflight.apple.
 
 - macOS Sonoma 14.3 or newer
 - Apple Mail
-
+  - No other active `Message Security Extensions` (Note: MailTrackerBlocker is a `Message Security Extension`. Mail only allows only one `Message Security Extension` to be active at a time.)
 
 ## Usage
 
@@ -45,14 +45,14 @@ Try out the beta for free by [enrolling on TestFlight](https://testflight.apple.
 
 1. Open the Mail app.
 2. Go to Settings > Extensions.
-3. Check `MailTrackerBlocker` to enable it. If you have multiple message security extensions installed, set "Message security extension" to `MailTrackerBlocker` to ensure trackers are blocked. Note that only one message security extension can be active.
+3. Check `MailTrackerBlocker` to enable it. If you have multiple Message Security Extensions installed, set "Message security extension" to `MailTrackerBlocker` to ensure trackers are blocked. Note that only one message security extension can be active.
 4. [Recommended] Images are safe for viewing now so to re-enable them: Goto Mail > Settings > Privacy > disable "Block All Remote Content".
-5. You should now see a 🧩 jigsaw puzzle icon over the message pane header as you read your emails. The extension is now enabled!
+5. You should now see the ⓧ icon over the message pane header as you read your emails. The extension is now enabled!
 
 
 #### Tracking Report
 
-Open the MailTrackerBlocker app or tap the 🧩 jigsaw puzzle icon in Mail that appears over the message pane header. The Tracking Report shows a rolling 30-day overview of e-mails grouped by tracker along with some frequency statistics.
+Open the MailTrackerBlocker app or tap the ⓧ icon in Mail that appears over the message pane header. The Tracking Report shows a rolling 30-day overview of e-mails grouped by tracker along with some frequency statistics.
 
 
 ## FAQ
