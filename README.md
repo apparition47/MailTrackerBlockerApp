@@ -4,7 +4,7 @@
     </a>
 </p>
 
-**MailTrackerBlocker** is an email tracker blocker for macOS Mail. Email marketers and other interests often embed invisible trackers in HTML emails so [they can track how often, when and where you open your emails](https://notospypixels.com/). Enable the included Mail extension to find out who is tracking you and to block these spy pixels in your emails.
+**MailTrackerBlocker** is an email tracker blocker for macOS Mail. Email marketers and other interests often embed invisible trackers in HTML emails so [they can track how often, when and where you open your emails](https://notospypixels.com/). Enable the included Mail Extension to find out who is tracking you and to block these spy pixels in your emails.
 
 > [!WARNING]
 > Users have reported that [[FB12796974] emails take a long time to load](https://github.com/apparition47/MailTrackerBlockerApp/issues/2). Apple has acknowledged this Mail bug and will release a fix in a future update of macOS.
@@ -21,7 +21,7 @@ Try out the beta for free by [enrolling on TestFlight](https://testflight.apple.
 
 ## Features
 
-- Mail extension.
+- Mail Extension.
 
 - Privacy protection: Blocks most spy pixels which may capture your IP address and function as read receipts and more.
 
@@ -34,7 +34,7 @@ Try out the beta for free by [enrolling on TestFlight](https://testflight.apple.
 
 - macOS Sonoma 14.3 or newer
 - Apple Mail
-  - No other active `Message Security Extensions` (Note: MailTrackerBlocker is a `Message Security Extension`. Mail only allows only one `Message Security Extension` to be active at a time.)
+  - Note: MailTrackerBlocker is a "Message Security Extension". Mail only allows up to one active Message Security Extension at a time.
 
 ## Usage
 
@@ -57,7 +57,7 @@ Open the MailTrackerBlocker app or tap the ⓧ icon in Mail that appears over th
 
 ## FAQ
 
-### Sometimes extension not running/puzzle icon missing even when enabled
+### Sometimes extension not running/puzzle or ⓧ icon missing even when enabled
 
 See [`FB13801609`](https://github.com/apparition47/MailTrackerBlockerApp/issues/9) for workarounds.
 
