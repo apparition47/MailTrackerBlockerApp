@@ -34,7 +34,7 @@ Try out the beta for free by [enrolling on TestFlight](https://testflight.apple.
 
 - macOS Sonoma 14.3 or newer
 - Apple Mail
-  - Note: Mail only allows up to one active `Message Security Extension` at a time. Set MailTrackerBlocker as your active Message Security Extension to unlock tracker report functionality.
+  - Note: Mail only allows up to one active `Message Security Extension` at a time. Set MailTrackerBlocker as your active Message Security Extension to unlock tracker reporting and unknown tracker blocking features.
 
 ## Usage
 
@@ -46,15 +46,14 @@ Try out the beta for free by [enrolling on TestFlight](https://testflight.apple.
 1. Open the Mail app.
 1. From the menu bar, open Settings > Extensions.
 1. Check `MailTrackerBlocker` to enable it.
-    * Mail allows only one active Message Security Extension at a time. If you have multiple installed, select `MailTrackerBlocker` from the "Message security extension:" dropdown at the bottom to enable the tracker report and to block unknown trackers.
+    * Mail allows only one active Message Security Extension at a time. If you have multiple installed, [select `MailTrackerBlocker` from the "Message security extension:" dropdown at the bottom](https://github.com/apparition47/MailTrackerBlockerApp/assets/3298414/26238241-fad6-42db-8141-17558aef8826) to enable tracker reporting and to block unknown trackers. These features won't be available if your Message security extension is set otherwise.
 1. [Optional] Images are safe for viewing now so to re-enable them: Goto Mail > Settings > Privacy > disable "Block All Remote Content".
-1. You should now see the ⓧ icon over the message pane header as you read your emails. The extension is now enabled!
 
 ### How to view tracking reports
 
-#### Mail Labeler
+#### Message Labeler
 
-In Mail, when you select a message you will be able to see a ⓧ icon that appears over the message pane header. Click to show what trackers MailTrackerBlocker has detected.
+In Mail, when you select a message you will be able to see a ⓧ icon that appears over the message pane header. Click it to show what trackers MailTrackerBlocker has detected.
 
 #### Tracking Report
 
