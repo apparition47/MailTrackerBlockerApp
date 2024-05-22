@@ -41,24 +41,29 @@ Try out the beta for free by [enrolling on TestFlight](https://testflight.apple.
 <img align="right" src="Assets/mail_settings.png" width="386px">
 
 
-### How to enable the Mail extension
+### How to enable the Mail Extension
 
 1. Open the Mail app.
 1. From the menu bar, open Settings > Extensions.
 1. Check `MailTrackerBlocker` to enable it.
     * Mail allows only one active Message Security Extension at a time. If you have multiple installed, select `MailTrackerBlocker` from the "Message security extension:" dropdown at the bottom to enable the tracker report and to block unknown trackers.
-1. [Recommended] Images are safe for viewing now so to re-enable them: Goto Mail > Settings > Privacy > disable "Block All Remote Content".
+1. [Optional] Images are safe for viewing now so to re-enable them: Goto Mail > Settings > Privacy > disable "Block All Remote Content".
 1. You should now see the ⓧ icon over the message pane header as you read your emails. The extension is now enabled!
 
+### How to view tracking reports
+
+#### Mail Labeler
+
+In Mail, when you select a message you will be able to see a ⓧ icon that appears over the message pane header. Click to show what trackers MailTrackerBlocker has detected.
 
 #### Tracking Report
 
-Open the MailTrackerBlocker app or tap the ⓧ icon in Mail that appears over the message pane header. The Tracking Report shows a rolling 30-day overview of e-mails grouped by tracker along with some frequency statistics.
+Open the MailTrackerBlocker app. The Tracking Report shows a rolling 30-day overview of e-mails grouped by tracker along with statistics.
 
 
 ## FAQ
 
-### Sometimes extension not running/puzzle or ⓧ icon missing even when enabled
+### Sometimes ⓧ icon missing even when enabled
 
 See [`FB13801609`](https://github.com/apparition47/MailTrackerBlockerApp/issues/9) for workarounds.
 
