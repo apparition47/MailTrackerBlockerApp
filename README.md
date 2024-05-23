@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://apps.apple.com/us/app/mailtrackerblocker/id6450760473">
-      <img width="635px" src="https://is2-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/80/5e/89/805e89f7-5c32-18c9-fed1-2927ad0aecf3/c3e28da9-c084-4416-8b4b-dcb164718ca5_New_Project__U00281_U0029.png/2880x1800bb.png">
+      <img width="635px" src="Assets/preview.jpg">
     </a>
 </p>
 
