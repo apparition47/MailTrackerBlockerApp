@@ -12,6 +12,11 @@ MailTrackerBlocker is an email tracker blocker for Apple Mail on macOS. Email ma
 MailTrackerBlocker for Mail is simple and easy to use. Just one flip of the switch to start blocking intrusive trackers as you read through your inbox. Click the little ⓧ icon in the message header to find out what was blocked.
 
 
+#### Available in the Mac App Store
+
+[![Mac App Store](Assets/download_mac_app_store.svg)](https://apps.apple.com/us/app/mailtrackerblocker/id6450760473)
+
+
 ## KEY FEATURES:
 
 - Mail Extension: built specifically for macOS Sonoma and Apple Mail.
