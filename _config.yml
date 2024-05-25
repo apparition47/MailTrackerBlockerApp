@@ -23,7 +23,7 @@ title: MailTrackerBlocker
 description: >- # this means to ignore newlines until "baseurl:"
   MailTrackerBlocker is developed by Aaron Lee and published under One Fat Giraffe.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://apparition47.github.io/MailTrackerBlockerApp" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: apparition47
 github_username:  apparition47
 
