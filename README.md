@@ -27,7 +27,7 @@ Try out the beta for free by [enrolling on TestFlight](https://testflight.apple.
 
 - Be informed: Identifies nearly 300 of the most common email marketing vendors.
 
-- Tracker report: See a 30-day overview of blocked trackers in your emails.
+- Tracker report: See a 30-day overview of blocked trackers in read emails along with some summary statistics.
   
 
 ## Requirements
