@@ -14,7 +14,7 @@ MailTrackerBlocker for Mail is simple and easy to use. Just one flip of the swit
 
 #### Available in the Mac App Store
 
-[![Mac App Store](Assets/download_mac_app_store.svg)](https://apps.apple.com/us/app/mailtrackerblocker/id6450760473)
+[![Mac App Store](https://raw.githubusercontent.com/apparition47/MailTrackerBlockerApp/0ad371795b51ae036d8bbd2316f441de36997033/Assets/download_mac_app_store.svg)](https://apps.apple.com/us/app/mailtrackerblocker/id6450760473)
 
 
 ## KEY FEATURES:
