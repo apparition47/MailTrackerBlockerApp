@@ -25,7 +25,7 @@ Try out the beta for free by [enrolling on TestFlight](https://testflight.apple.
 
 - Privacy protection: Blocks most spy pixels which may capture your IP address and function as read receipts and more.
 
-- Be informed: Identifies [nearly 300 of the most common email marketing vendors](https://github.com/apparition47/MailTrackerBlocker/blob/main/Source/MTBBlockedMessage.m#L212-L773).
+- Be informed: Identifies [over 300 of the most common email marketing vendors](https://github.com/apparition47/MailTrackerBlocker/blob/main/Source/MTBBlockedMessage.m#L212-L773).
 
 - Tracker report: See a 30-day overview of blocked trackers in read emails along with some summary statistics.
   
