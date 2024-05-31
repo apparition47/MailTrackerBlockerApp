@@ -53,7 +53,7 @@ Try out the beta for free by [enrolling on TestFlight](https://testflight.apple.
 
 #### Message Labeler
 
-In Mail, when you select a message you will be able to see a ⓧ icon that appears over the message pane header. Click it to show what trackers MailTrackerBlocker has detected.
+In Mail, when selecting an email, a banner above the message panel if a tracker was detected. Or click the small ⓧ icon to view what trackers MailTrackerBlocker has detected.
 
 #### Tracking Report
 
