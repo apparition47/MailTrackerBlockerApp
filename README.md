@@ -45,9 +45,12 @@ Try out the beta for free by [enrolling on TestFlight](https://testflight.apple.
 
 1. Open the Mail app.
 1. From the menu bar, open Settings > Extensions.
-1. Check `MailTrackerBlocker` to enable it.
+1. Check both `MailTrackerBlocker` and `Content Blocker` to enable.
     * Mail allows only one active Message Security Extension at a time. If you have multiple installed, [select `MailTrackerBlocker` from the "Message security extension:" dropdown at the bottom](https://github.com/apparition47/MailTrackerBlockerApp/assets/3298414/26238241-fad6-42db-8141-17558aef8826) to enable tracker reporting and to block unknown trackers. These features won't be available if your Message security extension is set otherwise.
 1. [Optional] Images are safe for viewing now so to re-enable them: Goto Mail > Settings > Privacy > disable "Block All Remote Content".
+
+**Note:** If you have issues with the main `MailTrackerBlocker` extension, try enabling only the `Content Blocker` extension. Additionally, If you need to use GPGMail, you can use `Content Blocker` without the `MailTrackerBlocker` extension in conjunction with GPGMail due to an API limitation with Mail.
+
 
 ### How to view tracking reports
 
