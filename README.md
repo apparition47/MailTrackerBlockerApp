@@ -6,9 +6,6 @@
 
 **MailTrackerBlocker** is an email tracker blocker for macOS Mail. Email marketers and other interests often embed invisible trackers in HTML emails so [they can track how often, when and where you open your emails](https://notospypixels.com/). Enable the included Mail Extension to find out who is tracking you and to block these spy pixels in your emails.
 
-> [!WARNING]
-> Users have reported that [[FB12796974] emails take a long time to load](https://github.com/apparition47/MailTrackerBlockerApp/issues/2). Please continue to report to Apple via the [Feedback Assistant](https://feedbackassistant.apple.com/) quoting `FB12796974`.
-
 
 #### Available in the Mac App Store
 
@@ -21,7 +18,7 @@ Try out the beta for free by [enrolling on TestFlight](https://testflight.apple.
 
 ## Features
 
-- Mail Extension: built specifically for macOS Sonoma and Apple Mail.
+- Mail Extension: built specifically for macOS Mail.
 
 - Privacy protection: Blocks most spy pixels which may capture your IP address and function as read receipts and more.
 
@@ -32,7 +29,8 @@ Try out the beta for free by [enrolling on TestFlight](https://testflight.apple.
 
 ## Requirements
 
-- macOS Sonoma 14.3 or newer
+- macOS 14.3 Sonoma or newer
+  - Latest version of macOS recommended for bug fixes to Mail.
 - Apple Mail
   - Note: Mail only allows up to one active `Message Security Extension` at a time. Set MailTrackerBlocker as your active Message Security Extension to unlock tracker reporting and unknown tracker blocking features.
 
@@ -79,6 +77,18 @@ In Mail, when selecting an email, a banner above the message panel if a tracker 
 Open the MailTrackerBlocker app. The Tracking Report shows a rolling 30-day overview of e-mails grouped by tracker along with statistics.
 
 
+## Known Issues
+
+### [[FB12796974] Emails take a long time to load]((https://github.com/apparition47/MailTrackerBlockerApp/issues/2)
+
+Workaround: Try opening another email then going back. If you continue to have issues, disable the main Mail extension and try only the Content Blocker extension.
+
+
+### [[FB22184388] Updating from Mac App Store gets stuck](https://github.com/apparition47/MailTrackerBlockerApp/issues/30)
+
+Workaround: quit Mail then retry the update.
+
+
 ## FAQ
 
 ### Sometimes ⓧ icon missing even when enabled
@@ -107,4 +117,4 @@ No. MailTrackerBlocker blocks *tracking pixels* (read receipts, open tracking) i
 
 ## Contact
 
-MailTrackerBlocker is developed by [Aaron Lee](https://x.com/apparition47) and published under One Fat Giraffe.
+MailTrackerBlocker is developed by [Aaron Lee](https://x.com/apparition47).
