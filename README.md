@@ -59,7 +59,6 @@ However, if you experience issues with the main `MailTrackerBlocker` extension, 
 | Blocks known trackers | ✅ | ✅ |
 | Shows what was blocked (header label + 30-day report + stats) | ✅ | ❌ |
 | Blocks *unknown* trackers (heuristic blocking) | ✅ | ❌ |
-| Mail loading speed | See issue ([#2](https://github.com/apparition47/MailTrackerBlockerApp/issues/2), FB12796974) | fast |
 | Can work with other Mail Security Extensions? | ❌ macOS allows only **one** Message Security extension | ✅ 
 
 Both block the same trackers; the main extension adds the report and unknown-tracker detection via the Message Security API (slower, and macOS allows only one such extension active, so it can't run beside another one). Block-only uses the lightweight content-blocker API.
@@ -79,7 +78,7 @@ Open the MailTrackerBlocker app. The Tracking Report shows a rolling 30-day over
 
 ## Known Issues
 
-### [[FB12796974] Emails take a long time to load]((https://github.com/apparition47/MailTrackerBlockerApp/issues/2)
+### [[FB12796974] Emails take a long time to load](https://github.com/apparition47/MailTrackerBlockerApp/issues/2)
 
 Workaround: Try opening another email then going back. If you continue to have issues, disable the main Mail extension and try only the Content Blocker extension.
 
