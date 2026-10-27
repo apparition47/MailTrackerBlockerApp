@@ -80,27 +80,20 @@ Open the MailTrackerBlocker app. The Tracking Report shows a rolling 30-day over
 
 ### [[FB12796974] Emails take a long time to load](https://github.com/apparition47/MailTrackerBlockerApp/issues/2)
 
-Workaround: Try opening another email then going back. If you continue to have issues, disable the main Mail extension and try only the Content Blocker extension.
+**Workaround:** Try opening another email then going back. If you continue to have issues, disable the main Mail extension and try only the Content Blocker extension.
 
 
 ### [[FB22184388] Updating from Mac App Store gets stuck](https://github.com/apparition47/MailTrackerBlockerApp/issues/30)
 
-Workaround: quit Mail then retry the update.
+**Workaround:** quit Mail then retry the update.
 
 
-## FAQ
+### [[FB13801609] Sometimes ⓧ icon missing even when enabled](https://github.com/apparition47/MailTrackerBlockerApp/issues/9)
 
-### Sometimes ⓧ icon missing even when enabled
+**Workaround:** Disable then re-enable MailTrackerBlocker in Mail > Settings > Extensions then try selecting another message.
 
-See [`FB13801609`](https://github.com/apparition47/MailTrackerBlockerApp/issues/9) for workarounds.
 
-### Does this work with Mail Privacy Protection?
-
-Yes, even in network environments (e.g. VPN) where Mail Privacy Protection doesn't work, MailTrackerBlocker will still block and identify trackers if you choose to "Load Remote Content".
-
-Note: [Mail Privacy Protection's proxy will still fetch the tracker image, triggering the tracker after an unknown period of time](https://www.mailbutler.io/blog/news/why-apples-mail-privacy-protection-does-not-break-mailbutlers-tracking-feature/). In the period of time before this happens, if you open your email without MailTrackerBlocker, the proxy will fetch the tracking image and trigger the tracker at that moment still letting the tracker know your exact opening time.
-
-### Why does macOS ask for my password (or admin name & password) when sending email?
+### macOS asks for password (or admin name & password) when sending email
 
 MailTrackerBlocker includes S/MIME support. If a signing certificate matching your email address exists in your keychain, Mail enables message signing by default. When the message is signed at send time, macOS asks you to authorize access to the certificate's private key — for certificates in the System keychain, this requires admin credentials.
 
@@ -108,6 +101,16 @@ To stop the prompts, either:
 
 1. Turn off signing for the message: in the compose window, click the checkmark (signing) button so it is disabled, or
 2. Switch to the `Block-only` extension (see table above), which blocks trackers without any message security features.
+
+
+## FAQ
+
+### Does this work with Mail Privacy Protection?
+
+Yes, even in network environments (e.g. VPN) where Mail Privacy Protection doesn't work, MailTrackerBlocker will still block and identify trackers if you choose to "Load Remote Content".
+
+Note: [Mail Privacy Protection's proxy will still fetch the tracker image, triggering the tracker after an unknown period of time](https://www.mailbutler.io/blog/news/why-apples-mail-privacy-protection-does-not-break-mailbutlers-tracking-feature/). In the period of time before this happens, if you open your email without MailTrackerBlocker, the proxy will fetch the tracking image and trigger the tracker at that moment still letting the tracker know your exact opening time.
+
 
 ### Does MailTrackerBlocker block spam?
 
