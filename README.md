@@ -11,10 +11,6 @@
 
 [![Mac App Store](Assets/download_mac_app_store.svg)](https://apps.apple.com/us/app/mailtrackerblocker/id6450760473)
 
-#### Free Demo
-
-Try out the beta for free by [enrolling on TestFlight](https://testflight.apple.com/join/cQLJpecQ)!
-
 
 ## Features
 
@@ -50,9 +46,9 @@ Try out the beta for free by [enrolling on TestFlight](https://testflight.apple.
 
 #### Which Mail Extension should I enable?
 
-For the best experience, enable main `MailTrackerBlocker`.
+For the best experience, enable the main `MailTrackerBlocker`.
 
-However, if you experience issues with the main `MailTrackerBlocker` extension, try enabling only the `Block-only` extension. Similarly, if you need to use GPGMail, use `Block-only` instead of the `MailTrackerBlocker` extension. Due to bugs and API limitations currently in Mail so `Block-only` was created as a workaround for these issues. To summarize, use either:
+However, if you experience issues with the main `MailTrackerBlocker` extension, try enabling only the `Block-only` extension. Similarly, if you need to use GPG, use `Block-only` instead of the `MailTrackerBlocker` extension. Due to bugs and API limitations currently in Mail so `Block-only` was created as a workaround for these issues. To summarize, use either:
 
 | | **MailTrackerBlocker** (Message Security) | **Block-only** (Content Blocker) |
 |---|---|---|
@@ -85,7 +81,7 @@ Open the MailTrackerBlocker app. The Tracking Report shows a rolling 30-day over
 
 ### [[FB22184388] Updating from Mac App Store gets stuck](https://github.com/apparition47/MailTrackerBlockerApp/issues/30)
 
-**Workaround:** quit Mail then retry the update.
+Fixed in macOS 27 Golden Gate. **Workaround for older macOS:** quit Mail then retry the update.
 
 
 ### [[FB13801609] Sometimes ⓧ icon missing even when enabled](https://github.com/apparition47/MailTrackerBlockerApp/issues/9)
